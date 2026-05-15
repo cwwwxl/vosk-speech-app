@@ -1,0 +1,42 @@
+{
+  "pages": [
+    { "path": "pages/record/record", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/history/history", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/settings/settings", "style": { "navigationStyle": "custom" } }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "语音识别",
+    "navigationBarBackgroundColor": "#0a0a0f",
+    "backgroundColor": "#0a0a0f",
+    "app-plus": {
+      "background": "#0a0a0f"
+    }
+  },
+  "tabBar": {
+    "color": "#636e82",
+    "selectedColor": "#6c5ce7",
+    "borderStyle": "black",
+    "backgroundColor": "#12121a",
+    "list": [
+      {
+        "pagePath": "pages/record/record",
+        "text": "录音",
+        "iconPath": "static/icons/mic.png",
+        "selectedIconPath": "static/icons/mic-active.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "static/icons/list.png",
+        "selectedIconPath": "static/icons/list-active.png"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "设置",
+        "iconPath": "static/icons/gear.png",
+        "selectedIconPath": "static/icons/gear-active.png"
+      }
+    ]
+  }
+}
