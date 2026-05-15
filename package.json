@@ -5,10 +5,13 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
+    "dev": "uni -p h5",
+    "build": "uni build -p h5",
     "dev:app": "uni -p app",
     "build:app": "uni build -p app",
     "dev:h5": "uni -p h5",
-    "build:h5": "uni build -p h5"
+    "build:h5": "uni build -p h5",
+    "serve": "uni -p h5"
   },
   "dependencies": {
     "@dcloudio/uni-app": "vue3",
